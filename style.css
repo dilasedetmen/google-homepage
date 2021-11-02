@@ -1,0 +1,159 @@
+
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    min-height: 300px;
+    margin-top: 50px;
+}
+
+#sign {
+    width: 75px;
+    height: 30px;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color:#4285f4;
+    float: right;
+    border: none;
+    outline: none;
+}
+i {
+    width: 40px;
+    height: 10px;
+    padding: -5px;  
+}
+
+#logo {
+    
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+    width: 250px;
+    height: 100px;
+}
+
+.nav {
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.navlink {
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    opacity: 0.85;
+    width: 40px;
+    height: 40px;
+    font-size: small;
+    padding: 10px 10px 0px 30px;
+    margin-top: 0px;
+ 
+}
+
+.leftnav{
+    float: left;
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+}
+
+.rightnav {
+    float: right;
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+}
+.navlink:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    color: gray;
+}
+.leftfooter, .rightfooter {
+    display: flex;
+  
+}
+
+.rightfooter {
+    margin-right: 30px;
+}
+
+.footerlink {
+    float: left;
+    text-decoration: none;
+    color: #70757a;
+    display: block;
+    padding: 10px 0 10px 30px;
+}
+
+.footerlink:hover {
+    text-decoration: underline;
+    color: #70757a;
+}
+
+.searchbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px; 
+    
+}
+
+.button12 {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.search-input {
+    position: relative;
+    display: block;
+    width: 78%;
+    height: 35%;
+    border-radius: 30px;
+    bottom: 50px;
+    left: 55px;
+    border-color: transparent;
+}
+
+.searchbar:hover,
+.searchbar:focus-within {
+    border-color: rgb(71, 38, 38);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-radius: 30px;
+}
+
+
+.searchbar { 
+    margin-right: 10px;
+}
